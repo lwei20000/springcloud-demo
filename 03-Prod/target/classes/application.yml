@@ -26,5 +26,3 @@ spring:
 mybatis:
   mapper-locations: classpath:com/itcast/mapper/*Mapper.xml   #
   type-aliases-package: com.itcast.entity
-
-

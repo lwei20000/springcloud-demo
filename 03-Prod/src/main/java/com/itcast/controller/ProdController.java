@@ -17,13 +17,13 @@ public class ProdController {
     private ProductService productService;
 
     @GetMapping("/searchProd")
-    public String searchOrder() {
-        List<Product> productList =  productService.selectOrderById(1);
+    public String searchProd() {
+        List<Product> productList =  productService.selectProducts(1);
         return productList.toString();
     }
 
     @GetMapping("/searchProd/{orderId}")
-    public Product searchOrder(@PathVariable Integer orderId) {
+    public Product searchProd(@PathVariable Integer orderId) {
         return new Product();
     }
 }

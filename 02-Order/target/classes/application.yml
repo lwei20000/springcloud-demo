@@ -22,7 +22,7 @@ spring:
     #数据源
     type: com.alibaba.druid.pool.DruidDataSource
 
-#mybatis:
+mybatis:
   mapper-locations: classpath:com/itcast/mapper/*Mapper.xml   #
   type-aliases-package: com.itcast.entity
 

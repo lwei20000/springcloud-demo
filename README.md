@@ -388,17 +388,73 @@ https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/using-sprin
 
 2. 配置数据源
 
+   ==注意：idea中开发时，*Mapper.xml文件要放在resources目录底下，与*Mapper.java文件包名相同。==
+
    > ```yml
-   > #数据库驱动
-   > datasource:
-   >   driver-class-name: com.mysql.cj.jdbc.Driver
-   >   jdbcUrl: jdbc:mysql://139.196.155.123:3306/atest?useUnicode=true&zeroDateTimeBehavior=convertToNull&autoReconnect=true&characterEncoding=utf-8
-   >   username: root
-   >   password: yjydev001
-   >   #数据源
-   >   type: com.alibaba.druid.pool.DruidDataSource
+   > #本服务名称
+   > spring:
+   >   application:
+   >     name: ORDER
+   > 
+   >   #数据库驱动
+   >   datasource:
+   >     driver-class-name: com.mysql.jdbc.Driver
+   >     url: jdbc:mysql://139.196.155.123:3306/atest
+   >     username: root
+   >     password: yjydev001
+   >     #数据源
+   >     type: com.alibaba.druid.pool.DruidDataSource
+   > 
+   > #mybatis:
+   >   mapper-locations: classpath:com/itcast/mapper/*Mapper.xml   #
+   >   type-aliases-package: com.itcast.entity
    > ```
    >
    > 
 
 3. 编写持久层代码
+
+   > DAO层
+   >
+   > ```java
+   > public interface OrderMapper {
+   >     Order selectOrderById(Integer id);
+   > }
+   > ```
+   >
+   > 
+   >
+   > service层
+   >
+   > ```java
+   > @Service
+   > @Transactional
+   > public class OrderServiceImpl implements OrderService {
+   > 
+   >     @Autowired
+   >     private OrderMapper orderMapper;
+   > 
+   >     @Override
+   >     public Order selectOrderById(Integer id) {
+   >         return orderMapper.selectOrderById(id);
+   >     }
+   > }
+   > ```
+   >
+   > 
+   >
+   > 启动器Application加注解
+   >
+   > ==@MapperScan("com.itcast.mapper")==
+   >
+   > ```java
+   > @SpringBootApplication
+   > @EnableEurekaClient
+   > @EnableFeignClients
+   > @MapperScan("com.itcast.mapper")  // mybatis的注解，作用是用于扫描mybatis的mapper接口
+   > public class OrderApplication {
+   > ```
+   >
+   > asd
+   >
+   > 

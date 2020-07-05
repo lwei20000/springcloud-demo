@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="83640ac3-ca69-4523-83d5-dca447704c57" name="Default Changelist" comment="" />
+    <list default="true" id="83640ac3-ca69-4523-83d5-dca447704c57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/02-Order/target/classes/com/itcast/mapper/OrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.assets/image-20200705211121154.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Order/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/02-Order/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Order/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/02-Order/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/02-Order/target/classes/com/itcast/OrderApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/02-Order/target/classes/com/itcast/OrderApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200704202001712.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200704202001712.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200704210915030.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200704210915030.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200704211119093.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200704211119093.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200704225201064.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200704225201064.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200704232208714.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200704232208714.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200704235000952.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200704235000952.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200705000327493.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200705000327493.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200705000910831.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200705000910831.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200705011038704.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200705011038704.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200705011105627.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200705011105627.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.assets/image-20200705020504100.png" beforeDir="false" afterPath="$PROJECT_DIR$/README.assets/image-20200705020504100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springcloud入门.md" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +36,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1eE4gdQL53NnR3iYKv9Lqt3619d" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -28,9 +53,10 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/02-Order/src/main/resources/com/itcast/mapper" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -50,11 +76,11 @@
       <recent name="com.itcast" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\02-Order\src\main\resources\com\itcast\mapper" />
       <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\04-Prod\src\main\java\com\itcast" />
       <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\04-Prod\src\main\resources" />
       <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\03-Order\src\main\resources" />
       <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\02-customer\src\main\resources" />
-      <recent name="D:\jetBrains\IdeaProjects\springcloud-demo" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OrderApplication">
@@ -137,12 +163,24 @@
       <updated>1593873530921</updated>
       <workItem from="1593873533566" duration="8161000" />
       <workItem from="1593881740514" duration="11624000" />
-      <workItem from="1593917803630" duration="18781000" />
+      <workItem from="1593917803630" duration="20942000" />
     </task>
+    <task id="LOCAL-00001" summary="提交新文件">
+      <created>1593954137330</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593954137330</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交新文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交新文件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="233" y="0" width="812" height="680" key="#Project_Structure" timestamp="1593887254120">
@@ -157,6 +195,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1593935594961" />
+    <state x="250" y="0" key="CommitChangelistDialog2" timestamp="1593954134581">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="250" y="0" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1593954134581" />
     <state width="568" height="438" key="DebuggerActiveHint" timestamp="1593940105735">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -165,54 +207,54 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="422" y="69" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1593882461819" />
-    <state width="1238" height="229" key="GridCell.Tab.0.bottom" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.0.bottom" timestamp="1593954410120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.0.center" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593954410120" />
+    <state width="1238" height="158" key="GridCell.Tab.0.center" timestamp="1593954410120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.0.left" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1593954410120" />
+    <state width="1238" height="158" key="GridCell.Tab.0.left" timestamp="1593954410120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.0.right" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1593954410120" />
+    <state width="1238" height="158" key="GridCell.Tab.0.right" timestamp="1593954410120">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.1.bottom" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1593954410120" />
+    <state width="1238" height="158" key="GridCell.Tab.1.bottom" timestamp="1593954498934">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.1.center" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.1.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593954498934" />
+    <state width="1238" height="158" key="GridCell.Tab.1.center" timestamp="1593954498933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.1.left" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.1.center/0.0.1280.680@0.0.1280.680" timestamp="1593954498933" />
+    <state width="1238" height="158" key="GridCell.Tab.1.left" timestamp="1593954498933">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.1.right" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.1.left/0.0.1280.680@0.0.1280.680" timestamp="1593954498933" />
+    <state width="1238" height="158" key="GridCell.Tab.1.right" timestamp="1593954498934">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.2.bottom" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.1.right/0.0.1280.680@0.0.1280.680" timestamp="1593954498934" />
+    <state width="1238" height="158" key="GridCell.Tab.2.bottom" timestamp="1593954409987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.2.center" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.2.bottom/0.0.1280.680@0.0.1280.680" timestamp="1593954409987" />
+    <state width="1238" height="158" key="GridCell.Tab.2.center" timestamp="1593954409987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.2.left" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.2.center/0.0.1280.680@0.0.1280.680" timestamp="1593954409987" />
+    <state width="1238" height="158" key="GridCell.Tab.2.left" timestamp="1593954409987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
-    <state width="1238" height="229" key="GridCell.Tab.2.right" timestamp="1593940396920">
+    <state width="1238" height="158" key="GridCell.Tab.2.left/0.0.1280.680@0.0.1280.680" timestamp="1593954409987" />
+    <state width="1238" height="158" key="GridCell.Tab.2.right" timestamp="1593954409987">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1238" height="229" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1593940396920" />
+    <state width="1238" height="158" key="GridCell.Tab.2.right/0.0.1280.680@0.0.1280.680" timestamp="1593954409987" />
     <state x="309" y="41" key="NewModule_or_Project.wizard" timestamp="1593882466279">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -221,6 +263,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1593882469608" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1593954141206">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1593954141206" />
     <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1593881740744">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

@@ -4,7 +4,7 @@
 
 ### 1、微服务架构概念的提出
 
-<img src="https://martinfowler.com/img/mf-dallas.jpg" alt="https://martinfowler.com/img/mf-dallas.jpg" style="zoom:50%;" />
+<img src="README.assets/image-20200705211121154.png" alt="image-20200705211121154" style="zoom:50%;" />
 
 **“monolithic 系统"的问题点：**
 
@@ -43,7 +43,7 @@
 >
 > 
 >
-> ![image-20200704202001712](springcloud入门.assets/image-20200704202001712.png)
+> ![image-20200704202001712](README.assets/image-20200704202001712.png)
 >
 > 4、参考网站：
 >
@@ -69,9 +69,9 @@
 
 #### 2.1 创建一个父工程
 
-> 1、开启idea，Create New Project，选择类型Spring Initializr![image-20200704211119093](springcloud入门.assets/image-20200704211119093.png)
+> 1、开启idea，Create New Project，选择类型Spring Initializr![image-20200704211119093](README.assets/image-20200704211119093.png)
 >
-> 2、填写父工程信息。注意：Type选择Maven POM。![image-20200704210915030](springcloud入门.assets/image-20200704210915030.png)
+> 2、填写父工程信息。注意：Type选择Maven POM。![image-20200704210915030](README.assets/image-20200704210915030.png)
 >
 > 3、生命springcloud版本。
 >
@@ -95,7 +95,7 @@
 
 > 1. 新建module
 >
-> ![image-20200704225201064](springcloud入门.assets/image-20200704225201064.png)
+> ![image-20200704225201064](README.assets/image-20200704225201064.png)
 >
 > 2、引入eureka server的依赖
 >
@@ -150,7 +150,7 @@
 >
 > 5、测试
 >
-> ![image-20200704232208714](springcloud入门.assets/image-20200704232208714.png)
+> ![image-20200704232208714](README.assets/image-20200704232208714.png)
 
 #### 2.4新建Order模块
 
@@ -192,7 +192,7 @@
 >
 > 5. 测试
 >
->    ![image-20200705011038704](springcloud入门.assets/image-20200705011038704.png)
+>    ![image-20200705011038704](README.assets/image-20200705011038704.png)
 
 #### 2.5新建Prod模块
 
@@ -229,7 +229,7 @@
 >
 > 5. 测试
 >
->    ![image-20200705011105627](springcloud入门.assets/image-20200705011105627.png)
+>    ![image-20200705011105627](README.assets/image-20200705011105627.png)
 
 ### 3、feign的引入
 
@@ -304,7 +304,7 @@
 >
 > ==**Filter（过滤器）**==：这是GatewayFilter的实例，我们可以用他修改请求和响应。
 >
-> ![image-20200705020504100](springcloud入门.assets/image-20200705020504100.png)
+> ![image-20200705020504100](README.assets/image-20200705020504100.png)
 >
 > <img src="https://cloud.spring.io/spring-cloud-gateway/2.2.x/reference/html/images/spring_cloud_gateway_diagram.png" alt="Spring Cloud Gateway Diagram" style="zoom:50%;" />
 

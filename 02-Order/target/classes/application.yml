@@ -23,6 +23,6 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource
 
 #mybatis:
-  mapper-locations: classpath*:com/itcast/mapper/*Mapper.xml   
+  mapper-locations: classpath:com/itcast/mapper/*Mapper.xml   #
   type-aliases-package: com.itcast.entity
 

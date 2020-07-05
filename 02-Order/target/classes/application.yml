@@ -1,0 +1,28 @@
+#修改端口号
+server:
+  port: 8081
+
+# 制定eureka服务地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+#本服务名称
+spring:
+  application:
+    name: ORDER
+
+  #数据库驱动
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://139.196.155.123:3306/atest
+    username: root
+    password: yjydev001
+    #数据源
+    type: com.alibaba.druid.pool.DruidDataSource
+
+#mybatis:
+  mapper-locations: classpath*:com/itcast/mapper/*Mapper.xml   
+  type-aliases-package: com.itcast.entity
+

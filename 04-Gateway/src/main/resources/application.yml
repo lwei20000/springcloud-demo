@@ -1,0 +1,29 @@
+#网关服务端口
+server:
+  port: 9002
+
+#服务名
+spring:
+  application:
+    name: GATEWAY
+  cloud:
+    gateway:
+      routes:
+        #路由1
+        - id: order_route1
+          uri: http://localhost:8081
+          predicates:
+            - Path=/**
+            - After=2017-01-20T17:42:47.789-07:00[America/Denver]
+
+
+#网关日志配置
+logging:
+  level:
+    org.springframework.cloud.gateway: TRACE
+    org.springframework.http.server.reactive: DEBUG
+    org.springframework.web.reactive: DEBUG
+    reactor.ipc.netty: DEBUG
+    reactor.netty: DEBUG
+
+

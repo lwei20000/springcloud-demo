@@ -1,0 +1,14 @@
+# 制定eureka服务地址
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+#本服务名称
+spring:
+  application:
+    name: PROD
+
+#修改端口号
+server:
+  port: 8082

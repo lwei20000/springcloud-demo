@@ -2,9 +2,9 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
 <mapper namespace="com.itcast.mapper.ProductMapper">
- <select id="selectProducts" parameterType="java.lang.Integer" resultType="com.itcast.entity.Product">
-        select * from `product` WHERE id  = #{id}
-    </select>
 
+    <select id="selectProducts" parameterType="java.lang.Integer" resultType="com.itcast.entity.Product">
+        select id id, order_id orderId, product_name productName from product WHERE order_Id  = #{orderId}
+    </select>
 
 </mapper>

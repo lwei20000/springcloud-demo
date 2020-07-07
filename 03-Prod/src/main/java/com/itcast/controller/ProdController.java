@@ -2,7 +2,6 @@ package com.itcast.controller;
 
 import java.util.List;
 
-import org.apache.commons.collections.CollectionUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -26,7 +25,7 @@ public class ProdController {
     @GetMapping("/searchProd/{orderId}")
     public Product searchProd(@PathVariable Integer orderId) {
     	  List<Product> productList =  productService.selectProducts(1);
-    	  if(CollectionUtils.isEmpty(productList)){
+    	  if(productList==null ||  productList.size()==0) {
     		  return new Product();
     	  }
     	  return productList.get(0);

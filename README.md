@@ -1,4 +1,4 @@
-# springcloud入门案例
+# springcloud入门
 
 ## 一、微服务简介
 
@@ -15,9 +15,11 @@
 
 > https://www.martinfowler.com/microservices/
 
-> In short, the microservice architectural style is an approach to developing a single application as a **suite of small services**, each **running in its own process** and communicating with      lightweight mechanisms, often an HTTP resource API. These      services are **built around business capabilities** and      **independently deployable** by fully automated deployment      machinery. There is a **bare minimum of centralized management** of      these services, which may be written in different programming      languages and use different data storage      technologies.
+> In short, the microservice architectural style is an approach to developing a single application as a **suite of small services**, each **running in its own process** and communicating with      lightweight mechanisms, often an HTTP resource API. These      services are **built around business capabilities** and      **independently deployable** by fully automated deployment      machinery. There is a **bare minimum of centralized management** of      these services, which may be written in different programming languages and use different data storage technologies.
 >
 > -- [James Lewis and Martin Fowler (2014)](https://www.martinfowler.com/articles/microservices.html)
+>
+> 简单地说， 微服务是系统架构上的一种==设计风格==， 它的主旨是将一个原本独立的系统==拆分成多个小型服务==，这些小型服务都在==各自独立==的进程中运行，服务之间通过基于 ==HTTP 的 RESTful API== 进行通信协作；被拆分后的每一个小型服务都==围绕着系统中的某一项业务==功能进行构建， 并且每个服务都是一个==单独部署==的项目，可以进行独立的测试、开发和部署等；由于各个独立的服务之间使用的是基于 HTTP 的 JSON 作为数据通信协作的基础，所以这些微服务可以使用==不同的语言==来开发；
 
 
 
@@ -53,15 +55,15 @@
 
 
 
-## 三、项目实战
+## 二、项目实战
 
 ### 1、需求描述
 
-> 1、订单Oder服务、商品Prod服务。
+> 1、注册中心：springcloud eureka
 >
-> 2、网关服务：springcloud gateway
+> 2、订单Oder服务、商品Prod服务。
 >
-> 3、注册中心：springcloud eureka
+> 3、网关服务：springcloud gateway。
 >
 > 4、订单服务远程调用商品服务。
 
@@ -71,9 +73,9 @@
 
 > 1、开启idea，Create New Project，选择类型Spring Initializr![image-20200704211119093](README.assets/image-20200704211119093.png)
 >
-> 2、填写父工程信息。注意：Type选择Maven POM。![image-20200704210915030](README.assets/image-20200704210915030.png)
+> 2、填写父工程信息。注意：Type选择**Maven POM**。![image-20200704210915030](README.assets/image-20200704210915030.png)
 >
-> 3、生命springcloud版本。
+> 3、声明springcloud版本。
 >
 > https://spring.io/projects/spring-cloud   [reach end-of-life](https://spring.io/blog/2018/06/19/spring-cloud-finchley-release-is-available)
 >
@@ -99,7 +101,7 @@
 >
 > 2、引入eureka server的依赖
 >
-> Spring Cloud Netflix > 文档 > Service Discovery: Eureka Server
+> Spring Cloud Netflix > 文档 > 2. Service Discovery: Eureka Server
 >
 > ```xml
 > <dependency>
@@ -132,7 +134,7 @@
 >
 > 
 >
-> 4、引入配置文件Application.yml
+> 4、引入配置文件application.yml
 >
 > ```yml
 > server:
@@ -167,11 +169,11 @@
 >    </dependency>
 >    ```
 >
-> 3. 编写启动类
+> 3. 编写启动类以及接口
 >
 >    类推
 >
-> 4. 引入配置文件Application.yml
+> 4. 引入配置文件application.yml
 >
 >    ```yml
 >    # 制定eureka服务地址
@@ -202,7 +204,7 @@
 >
 > 2. 引入eureka client依赖
 >
->    同customer
+>    同order
 >
 > 3. 编写启动类
 >
@@ -275,30 +277,26 @@
 >    ```java
 >    @FeignClient("PROD")
 >    public interface ProdClient {
->    
->        @RequestMapping(value="/searchProd", method = RequestMethod.GET)
->        String searchProd();
->    
 >        @RequestMapping(value="/searchProd/{orderId}",method = RequestMethod.GET)
 >        Prod searchProd(@PathVariable(value="orderId") Integer orderId);
 >    }
 >    ```
->
 >    
->
+>    
+>    
 > 4. 测试使用
 >
 > 略
 
 
 
-### 4、SpringCloud gateWay引入
+### 4、GateWay引入
 
 #### 3.1、引言
 
 > zuul开源跳票严重，Spring组织就自己开发了一套服务网关来取代zuul。
 >
-> ==**路由：**==这是网关的基本构建快，它由一个ID，一个目标URI一组断言和一族过滤器定义。如果断言微针，则路由匹配。
+> ==**路由：**==这是网关的基本构建快，它由一个ID，一个目标URI一组断言和一族过滤器定义。如果断言为真，则路由匹配。
 >
 > ==**Predicate（断言）**==：这是一个Java8的Predicate，输入类型是一个ServerWebExchange。我们可以用它来匹配来自HTTP请求的任何内容，例如headers或者参数。
 >
@@ -308,7 +306,7 @@
 >
 > <img src="https://cloud.spring.io/spring-cloud-gateway/2.2.x/reference/html/images/spring_cloud_gateway_diagram.png" alt="Spring Cloud Gateway Diagram" style="zoom:50%;" />
 
-#### 3.2、添加Feign的支持
+#### 3.2、添加gateway的支持
 
 1、导入依赖
 
@@ -358,7 +356,7 @@
 
 #### 3.1、引言
 
-> feign可以帮助我们实现面向接口编程，直接调用其他服务，简化开发。
+> 
 
 #### 3.2、mybatis引入
 
@@ -391,11 +389,20 @@ https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/using-sprin
    ==注意：idea中开发时，*Mapper.xml文件要放在resources目录底下，与*Mapper.java文件包名相同。==
 
    > ```yml
+   > # 制定eureka服务地址
+   > eureka:
+   >   client:
+   >     service-url:
+   >       defaultZone: http://localhost:8761/eureka
+   > 
    > #本服务名称
    > spring:
    >   application:
    >     name: ORDER
    > 
+   > #修改端口号
+   > server:
+   >   port: 8081
    >   #数据库驱动
    >   datasource:
    >     driver-class-name: com.mysql.jdbc.Driver
@@ -405,7 +412,8 @@ https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/using-sprin
    >     #数据源
    >     type: com.alibaba.druid.pool.DruidDataSource
    > 
-   > #mybatis:
+   > #mybatis参数
+   > mybatis:
    >   mapper-locations: classpath:com/itcast/mapper/*Mapper.xml   #
    >   type-aliases-package: com.itcast.entity
    > ```
@@ -455,6 +463,6 @@ https://docs.spring.io/spring-boot/docs/2.3.1.RELEASE/reference/html/using-sprin
    > public class OrderApplication {
    > ```
    >
-   > asd
+   > 
    >
    > 

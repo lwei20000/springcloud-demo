@@ -3,6 +3,19 @@
   <component name="ChangeListManager">
     <list default="true" id="83640ac3-ca69-4523-83d5-dca447704c57" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200704202001712.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200704202001712.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200704210915030.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200704210915030.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200704211119093.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200704211119093.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200704225201064.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200704225201064.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200704232208714.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200704232208714.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200704235000952.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200704235000952.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200705000327493.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200705000327493.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200705000910831.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200705000910831.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200705011038704.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200705011038704.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200705011105627.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200705011105627.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200705020504100.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200705020504100.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.assets/image-20200705211121154.png" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.assets/image-20200705211121154.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01-eureka/src/main/resources/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/resources/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +50,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01-eureka/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -57,11 +70,11 @@
       <recent name="com.itcast.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\resources" />
+      <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\01-eureka\src\main\resources" />
       <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\03-Prod\src\main\java\com\itcast\service" />
       <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\03-Prod\src\main\resources\com.itcast.mapper" />
       <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\02-Order\src\main\resources\com\itcast\mapper" />
-      <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\04-Prod\src\main\java\com\itcast" />
-      <recent name="D:\jetBrains\IdeaProjects\springcloud-demo\04-Prod\src\main\resources" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.OrderApplication">
@@ -149,6 +162,7 @@
       <workItem from="1594108039794" duration="2450000" />
       <workItem from="1594110511076" duration="10382000" />
       <workItem from="1596099253632" duration="53000" />
+      <workItem from="1596099346971" duration="1433000" />
     </task>
     <task id="LOCAL-00001" summary="提交新文件">
       <created>1593954137330</created>
@@ -213,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594125509034</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="提交新文件">
+      <created>1596099500231</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1596099500231</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,10 +257,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="446" y="50" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680@0.0.1280.680" timestamp="1593935594961" />
-    <state x="248" y="44" width="766" height="587" key="CommitChangelistDialog2" timestamp="1594125506923">
+    <state x="248" y="44" width="766" height="587" key="CommitChangelistDialog2" timestamp="1596099498276">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="248" y="44" width="766" height="587" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1594125506923" />
+    <state x="248" y="44" width="766" height="587" key="CommitChangelistDialog2/0.0.1280.680@0.0.1280.680" timestamp="1596099498276" />
     <state width="568" height="438" key="DebuggerActiveHint" timestamp="1593940105735">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -316,10 +337,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="121" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1594092185075" />
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1594125523797">
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2" timestamp="1596099504177">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1594125523797" />
+    <state x="233" y="73" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1596099504177" />
     <state x="336" y="164" key="com.intellij.ide.util.TipDialog" timestamp="1596099347435">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
